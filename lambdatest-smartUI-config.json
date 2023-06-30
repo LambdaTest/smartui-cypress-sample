@@ -1,7 +1,7 @@
 {
     "lambdatest_auth": {
-      "username": "saurabhlambdatest",
-      "access_key": "3822ZWc92Nlj14URYtqggRpVYHVk7pu7rs7Dqx1AjJe5NUHPRA"
+        "username": "<Your LambdaTest username>",
+        "access_key": "<Your LambdaTest access key>"
     },
     "browsers": [
       {
