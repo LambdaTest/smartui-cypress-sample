@@ -21,7 +21,7 @@
      "cypress_version": "9.6.0",
      "specs": "cypress/integration/examples/smartUI.spec.js",
     "smart_ui": {
-      "project": "<smart_projectName>"
+      "project": "smart_projectName"
     }
    },
    "tunnel_settings": {
