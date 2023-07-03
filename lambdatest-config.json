@@ -7,28 +7,25 @@
      {
        "browser": "Chrome",
        "platform": "Windows 10",
-       "versions": ["latest-1"]
+       "versions": [
+         "latest"
+       ]
      }
    ],
    "run_settings": {
      "cypress_config_file": "cypress.json",
-     "build_name": "build-name",
-     "parallels": 2,
+     "reporter_config_file": "base_reporter_config.json",
+     "build_name": "Cypress Smart-UI Integration",
+     "parallels": 5,
+     "fixed_ip": "",
+     "cypress_version": "9.6.0",
      "specs": "cypress/integration/examples/smartUI.spec.js",
-     "ignore_files": "",
-     "feature_file_suppport": false,
-     "network": false,
-     "headless": false,
-     "reporter_config_file": "",
-     "npm_dependencies": {
-       "cypress": "9.6.0"
-     },
-     "smart_ui": {
-       "project": "smartUI-project"
-     }
+    "smart_ui": {
+      "project": "<smart_projectName>"
+    }
    },
    "tunnel_settings": {
      "tunnel": false,
-     "tunnel_name": null
+     "tunnelName": null
    }
  }
