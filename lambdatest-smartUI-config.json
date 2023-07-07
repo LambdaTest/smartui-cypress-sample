@@ -1,0 +1,31 @@
+{
+    "lambdatest_auth": {
+      "username": "username",
+      "access_key": "access_key"
+    },
+    "browsers": [
+      {
+        "browser": "Chrome",
+        "platform": "Windows 10",
+        "versions": [
+          "latest"
+        ]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress SmartUI",
+      "parallels": 5,
+      "fixed_ip": "",
+      "cypress_version": "9.6.0",
+      "specs": "cypress/integration/examples/smartUI.spec.js",
+      "smart_ui": {
+        "project": "smart_projectName"
+      }
+    },
+    "tunnel_settings": {
+      "tunnel": false,
+      "tunnelName": null
+    }
+  }
