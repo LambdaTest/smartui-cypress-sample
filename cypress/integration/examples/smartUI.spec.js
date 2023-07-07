@@ -2,8 +2,8 @@
 
 describe('My First Cypress method', function () {
     it('clickin on element', () => {
-      cy.visit('https://the-internet.herokuapp.com/add_remove_elements/')
-      cy.screenshot('herokuapp')
+      cy.visit('https://example.cypress.io/commands/actions')
+      cy.screenshot('cypress')
     })
   })
   
