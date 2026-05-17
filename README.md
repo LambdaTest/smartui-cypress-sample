@@ -1,4 +1,4 @@
-# Run SmartUI Cypress Tests on TestMu AI (Formerly LambdaTest)
+﻿# Run SmartUI Cypress Tests on TestMu AI (Formerly LambdaTest)
 
 <p align="center">
   <a href="https://www.testmuai.com/"><img src="https://img.shields.io/badge/MADE%20BY%20TestMu%20AI-000000.svg?style=for-the-badge&labelColor=000" alt="Made by TestMu AI"></a>
@@ -17,9 +17,9 @@ With TestMu AI (Formerly LambdaTest), you can run SmartUI Cypress visual regress
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (LTS version recommended).
+- Node.js (LTS version recommended).
 - npm installed.
-- A [TestMu AI account](https://www.testmuai.com/register/). Retrieve your **Username** and **Access Key** from the [TestMu AI Automation Dashboard](https://automation.testmuai.com/).
+- A TestMu AI account. Retrieve your **Username** and **Access Key** from the TestMu AI Automation Dashboard.
 
 ### Setup
 
@@ -44,7 +44,7 @@ Execute the Cypress SmartUI test using the configuration file `lambdatest-smartU
 lambdatest-cypress run --lcf lambdatest-smartUI-config.json --username="<YOUR_LAMBDATEST_USERNAME>" --access_key="<YOUR_LAMBDATEST_ACCESS_KEY>"
 ```
 
-Once tests start executing, you can view live results on the [TestMu AI Automation Dashboard](https://automation.testmuai.com/). Each test run shows live video feed, screenshots, console logs, and terminal logs.
+Once tests start executing, you can view live results on the TestMu AI Automation Dashboard. Each test run shows live video feed, screenshots, console logs, and terminal logs.
 
 ### Local testing with TestMu AI Tunnel
 
